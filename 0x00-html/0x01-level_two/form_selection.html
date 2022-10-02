@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<form action="">
+			<h1>Hotel Feedbak Form</h1>
+			
+			Please answer the following questions
+			
+			<h2>Select your gender</h1>
+				
+				<!--
+					WORKING ON RADIO BUTTPONS
+					The position of the input tag 
+					determines how its displayed on the
+					browser
+					The 'name' argument in the input tag 
+					is to group the raio buttons
+				-->
+			<input type="radio" id="male" name="gender">
+			<label for="male">Male</label>
+			<br>
+
+			<input type="radio" id="female" name="gender">
+			<label for="male">Female</label>
+			<br>
+
+			<input type="radio" id="others" name="gender">
+			<label for="others">others</label>
+			<input type="text" id="others" value=""placeholder= "Please specify" >
+
+			<!--
+				For drop-down menu
+			-->
+			<h3>Please rate our service</h3>
+			<select name="Feedback" id="">
+				<option value="1">Excellent</option>
+				<option value="2">Very Good</option>
+				<option value="3">Good</option>
+				<option value="4">Fair</option>
+				<option value="5">Very Poor</option>
+			</select>
+			<br>
+
+			<!--For checkboxes-->
+			<h3>Select other places visited in Africa!</h3>
+			<input type="checkbox" id="Nigeria">
+			<label for="Nigeria">Nigeria</label><br>
+
+			<input type="checkbox" id="South Africa">
+			<label for="South Africa">South Africa</label><br>
+
+			<input type="checkbox" id="Niger">
+			<label for="Niger">Niger</label><br>
+
+			<input type="checkbox" id="Ghana">
+			<label for="Ghana">Ghana</label><br>
+
+			<!-- For text area-->
+			<h3>Your Feedback</h3>
+			<textarea name="" id="area" cols="30" rows="20" placeholder="Enter your message here"></textarea>
+		<br><br>
+			<input type="submit" value="Send">
+		</form>
+		<br>
+
+
+	</body>
+</html>
