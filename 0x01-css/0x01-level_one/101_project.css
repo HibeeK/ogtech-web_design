@@ -1,0 +1,73 @@
+/* Style the main body */
+body {
+	background: url(8.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.login {
+	/* background: rgba(44, 62, 80, 0.7);
+	padding: 50;
+	width: 250;
+	margin-top: 90;
+	margin-left: 180;
+	margin: 0 auto; */
+	border: none;
+	background: rgb(57, 180, 180);
+	padding: 30px;
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 180;
+	margin-top: 300px;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 5px 5px 30px black;
+}
+
+input {
+	background: transparent;
+	outline: none;
+	text-align: center;
+	border: none;
+	border-bottom: thin solid whitesmoke;
+	color: whitesmoke;
+	width: 200px;
+	font-size: 15px;
+	font-weight: 200;
+	height: 20px;
+	padding: 10px 0;
+}
+
+::placeholder {
+	color: whitesmoke;
+	opacity: 0.4;
+}
+
+.login p {
+	color: whitesmoke;
+}
+
+button {
+	border: none;
+	border-radius: 20px;
+	height: 20px;
+	width: 100px;
+	cursor: pointer;
+}
+
+button:hover {
+	color: whitesmoke;
+	background: black;
+}
+
+.signin p {
+	color: gold;
+}
+
+a {
+	color: whitesmoke;
+}
+a:hover {
+	color: darkmagenta;
+}

@@ -1,0 +1,24 @@
+/* using .(classname) and #(id name) */
+
+.firstDiv {
+	border-color: black;
+	border-width: thin;
+	border-style: solid;
+	background-color: blanchedalmond;
+}
+
+.secondDiv {
+	color: purple;
+
+}
+
+.hire {
+	color: greenyellow;
+	text-align: center;
+	margin-left: 100;
+}
+
+#slogan {
+	color: blue;
+	text-decoration: line-through;
+}

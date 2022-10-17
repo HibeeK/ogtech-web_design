@@ -1,0 +1,71 @@
+body {
+	background: url(6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.signbox {
+	background: rgba(44, 62, 80, 0.7);
+	padding: 50;
+	width: 250;
+	margin-top: 90;
+	margin-left: 180;
+	margin: 0 auto;
+}
+
+form {
+	width: 250;
+	text-align: center;
+	margin-top: -10;
+}
+
+input {
+	width: 250;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: thin solid whitesmoke;
+	font-size: 20px;
+	font-weight: 200px;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	height: 35px;
+	color: whitesmoke;
+}
+
+button {
+	border: none;
+	width: 190px;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 10px 0;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: black;
+	color: whitesmoke;
+}
+
+.signbox h2{
+	color: goldenrod;
+}
+
+a {
+	color: goldenrod;
+}
+a:hover {
+	color: cyan;
+}
+
+.signin {
+	color: whitesmoke;
+}
+
+::placeholder {
+	color: whitesmoke;
+	opacity: 0.5;
+}
